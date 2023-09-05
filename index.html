@@ -5,38 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="#" type="#">
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="headercontainer">
             Developer Funnel
             <button>Home</button>
         </div>
     </header>
     <div class="filterContainer">
-        THIS IS FILTER
+        <span id="foodFilterText">Food Filter</span>
         <br>
-        <select>
-            <option value="All">All</option>
-            <option value="North Indian">North Indian</option>
-            <option value="South Indian">South Indian</option>"
-            <option value="Chinese">Chinese</option>
-        </select>
+        <hr>
         <br>
-        THIS IS FILTER 2
+        <input type="radio" value="all" name="foodFilter" id="radioAllFood">
+            <label for="radioAll">All</label><br>
+        <input type="radio" value="North Indian" name="foodFilter" id="radioNorthIndian">
+            <label for="radioNorthIndian">North Indian</label><br>
+        <input type="radio" value="South Indian" name="foodFilter" id="radioSouthIndian">
+            <label for="radioSouthIndian">South Indian</label><br>
+        <input type="radio" value="Chinese" name="foodFilter" id="radioChinese">
+            <label for="radioChinese">Chinese</label><br>
+        <input type="radio" value="Fast Food" name="foodFilter" id="radioFastFood">
+            <label for="radioFastFood">Fast Food</label><br>
+        <input type="radio" value="Street Food" name="foodFilter" id="radioStreetFood">
+            <label for="radioStreetFood">Street</label> Food</label><br>
+
+
+
         <br>
-        <input type="radio" id="html" name="fav_language" value="HTML">
-<label for="html">HTML</label><br>
-<input type="radio" id="css" name="fav_language" value="CSS">
-<label for="css">CSS</label><br>
-<input type="radio" id="javascript" name="fav_language" value="JavaScript">
-<label for="javascript">JavaScript</label>
+            <span id="costFilterText">Cost Filter</span>
+            <br>
+            <hr>
+            <br>
+            <input type="radio" id="radioAllCost" name="costFilter" value="All">
+            <label for="radioAllCost">All</label><br>
+            <input type="radio" id="radio300" name="costFilter" value="0-300">
+            <label for="radio300">0-300</label><br>
+            <input type="radio" id="radio600" name="costFilter" value="301-600">
+            <label for="radio600">301-600</label><br>
+            <input type="radio" id="radio900" name="costFilter" value="601-900">
+            <label for="radio900">601-900</label><br>
+            <input type="radio" id="radio5000" name="costFilter" value="901-5000">
+            <label for="radio5000">901-5000</label><br>
+
     </div>
 
     <div class="cafeOverview">
-        THIS IS CAFE
+        <div id="showCafe">THIS IS CAFE</div>
     </div>
+
+
+    <script src="script.js"></script>
     
 </body>
 </html>

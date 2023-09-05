@@ -1,11 +1,20 @@
+.headercontainer{
+    padding:10px;
+    background-color: grey;
+}
+
+header{
+    margin-bottom: 15px;
+}
+
 .filterContainer{
-    width:30%;
+    width:25%;
     border:solid 1px black;
     display:inline-block;
 }
 
 .cafeOverview{
-    width:68%;
+    width:73%;
     border:solid 1px black;
     display:inline-block;
 }
