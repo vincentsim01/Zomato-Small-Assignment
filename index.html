@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="#" type="#">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Lato:wght@300&display=swap');
+        </style>
 </head>
 <body>
     <header>
@@ -14,6 +17,34 @@
             <button>Home</button>
         </div>
     </header>
+    <div id="burger">
+        &#8719
+    </div>
+
+    <div id="filterContainerMobile" class="filterNone">
+        <span id="XFilter">X</span>
+        Food Type:
+        <br>
+        <select id="selectFood">
+            <option>North Indian</option>
+            <option>South Indian</option>
+            <option>Chinese</option>
+            <option>Fast Food</option>
+            <option>Street Food</option>
+        </select>
+        <br>
+        Price
+        <br>
+        <select id="selectPrice">
+            <option>0-300</option>
+            <option>301-600</option>
+            <option>601-900</option>
+            <option>901-5000</option>
+
+        </select>
+    
+    </div>
+
     <div class="filterContainer">
         <span id="foodFilterText">Food Filter</span>
         <br>

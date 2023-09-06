@@ -99,6 +99,31 @@ cafez.forEach(cafeFunction=>{
 });
 
 
+
+var filterContainerMobile = document.getElementById("filterContainerMobile");
+
+var burger=document.getElementById("burger");
+
+var XFilter=document.getElementById("XFilter");
+
+var cafeOverview=document.getElementsByClassName("cafeOverview");
+
+burger.addEventListener("click", changeDisplay);
+
+
+
+function changeDisplay(){
+    filterContainerMobile.classList.remove("filterNone");
+}
+
+XFilter.addEventListener("click", () =>{
+    filterContainerMobile.classList.add("filterNone");
+
+});
+
+
+
+
 // cafez.Food.forEach(cafeFoodFunction=>{
 //     let cafeBin=document.createElement("button");
 //     // let cafeBin.innerHTML = `<span id="foodTypeButtonText">${cafeFoodFunction}</span>`;
