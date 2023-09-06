@@ -29,10 +29,13 @@ header{
 .cafeImageContainer{
     display:inline-block;
     width:45%;
-    
+
 }
 
 .cafeInfoContainer{
     display:inline-block;
     width:50%;
+    vertical-align: top;
+    /* border:1px solid black; */
+    
 }
