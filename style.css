@@ -8,17 +8,31 @@ header{
 }
 
 .filterContainer{
-    width:25%;
+    width:30%;
     border:solid 1px black;
     display:inline-block;
+    vertical-align: top;
+    position: sticky;
+    
 }
 
 .cafeOverview{
-    width:73%;
+    width:68%;
     border:solid 1px black;
     display:inline-block;
 }
 
 .cafeImage{
-    width:300px;
+    width:80%;
+}
+
+.cafeImageContainer{
+    display:inline-block;
+    width:45%;
+    
+}
+
+.cafeInfoContainer{
+    display:inline-block;
+    width:50%;
 }
