@@ -19,6 +19,11 @@ header{
 
 #burger{
     display:none;
+    width:10px;
+}
+
+#theBurger{
+    width:30px;
 }
 
 .filterNone{
